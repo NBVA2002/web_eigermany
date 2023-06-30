@@ -1,0 +1,132 @@
+.background-img {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/nick-morrison-FHnnjk1Yj7Y-unsplash\ 1.png');
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.background-color {
+    width: 55%;
+    height: 100%;
+    background: #C32270B2;
+    opacity: 0.8999999761581421;
+    position: relative;
+}
+
+.background-logo {
+    width: 432px;
+    height: 105px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.register {
+    width: 653px;
+    height: 100%;
+    background: #FFF;
+    position: relative;
+}
+
+.heading-register {
+    margin-top: 84px;
+    margin-left: 49px
+}
+
+.heading-register__icon {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #C32270;
+    display: inline-block;
+
+    transform: translateY(7px);
+}
+
+.heading-register__title {
+    color: var(--tm, #C32270);
+    /* Tiêu đề/20 */
+    font-size: 20px;
+    font-family: Quicksand;
+    font-weight: 500;
+    display: inline-block;
+    top: 0;
+}
+
+.logo-register__img {
+    width: 428px;
+    height: 104px;
+    flex-shrink: 0;
+    display: flex;
+    margin: auto;
+    margin-top: 83px;
+}
+
+.logo-register__text {
+    width: 338px;
+    font-size: 18px;
+    font-family: Quicksand;
+    font-weight: 500;
+    display: flex;
+    margin: auto;
+    margin-top: 38px;
+}
+
+.register-form {
+    margin-top: 68px;
+}
+
+.register-form__input {
+    width: 523px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid var(--xm, #BABABA);
+    background: #FFF;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.register-btn {
+    width: 523px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid var(--trng, #FFF);
+    background: var(--tm, #C32270);
+    padding: 16px 208px;
+    color: var(--trng, #FFF);
+
+    /* Tiêu đề/18 */
+    font-size: 18px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    margin: auto;
+    margin-top: 28px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-left: 40px;
+}
+
+.logo-showpass {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    margin: 12px;
+}

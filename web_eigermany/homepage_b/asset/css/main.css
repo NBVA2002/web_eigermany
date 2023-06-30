@@ -1,0 +1,454 @@
+.hompage_b {
+    width: 100%;
+    margin-right: 0px;
+}
+
+.heading {
+    width: 100%;
+    height: 71px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+}
+
+.heading-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading__logo {
+    width: 162px;
+    height: 40px;
+    display: inline-block;
+}
+
+.heading-login {
+    display: flex;
+    align-items: center;
+}
+
+.heading-login-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.heading-login-text {
+    color: var(--tm, #C32270);
+    font-size: 18px;
+    font-family: Quicksand;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.content {
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 1961px;
+}
+
+.slider {
+    width: 100%;
+    height: 385px;
+    background: url("../img/lilartsy-333oj7zFsdg-unsplash\ 1.png"), lightgray 0px -361.892px / 100% 197.427% no-repeat;
+    position: relative;
+}
+
+.order-text {
+    height: 123px;
+    text-align: center;
+    color: var(--tm, #C32270);
+    text-align: center;
+    font-size: 30px;
+    font-family: Quicksand;
+    font-weight: 500;
+    padding-top: 40px;
+    padding-bottom: 46px;
+}
+
+.order-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.order-list__item {
+    width: 335px;
+    height: 218px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+
+}
+
+.order-list__item__icon {
+    width: 74.657px;
+    height: 78px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 21px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.order-list__item__saveicon {
+    display: flex;
+    width: 22.971px;
+    height: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    float: right;
+    margin: 15px;
+}
+
+.order-item__info {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 289px;
+    height: 19px;
+    top: 121px;
+}
+
+.order-item__id,
+.order-item__name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-item__lable {
+    color: var(--en, #000);
+
+    /* Nội dung/Medium */
+    font-size: 15px;
+    font-family: Quicksand;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.order-item__text {
+    display: flex;
+    width: 95px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--en, #000);
+    text-align: right;
+
+    /* Nội dung/Regular */
+    font-size: 15px;
+    font-family: Quicksand;
+    display: inline-block;
+}
+
+.order-item__showdetal {
+    color: var(--tm, #C32270);
+    font-size: 13px;
+    font-family: Quicksand;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 17px;
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.order-btn-view {
+    width: 165px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid var(--trng, #FFF);
+    background: var(--tm, #C32270);
+    text-decoration: none;
+    color: var(--trng, #FFF);
+    font-size: 15px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 12px 37px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 45px;
+}
+
+.list-content {
+    width: 100%;
+    padding: 0px;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-item {
+    width: 50%;
+    height: 550px;
+    position: relative;
+}
+
+.lorem__showmore {
+    width: 165px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid var(--trng, #FFF);
+    background: var(--tm, #C32270);
+    text-decoration: none;
+    color: var(--trng, #FFF);
+    font-size: 15px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 12px 37px;
+    text-align: center;
+}
+
+.img__lorem {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.img__opacity {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4000000059604645;
+    background: #000;
+}
+
+.content__lorem {
+    position: absolute;
+    width: 428px;
+    margin-top: 101px;
+    margin-left: 67px;
+    padding-left: 26px;
+    padding-bottom: 22px;
+    border-left: 5px solid #C32270;
+}
+
+.lorem__text {
+    color: var(--trng, #FFF);
+    font-size: 30px;
+    font-family: Quicksand;
+    font-weight: 600;
+    padding-bottom: 14px;
+}
+
+.lorem__slogan {
+    display: flex;
+    width: 401px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+
+    /* Nội dung/Regular */
+    font-size: 15px;
+    font-family: Quicksand;
+    margin-bottom: 34px;
+}
+
+.list-content__study {
+    background-color: rgba(205, 135, 159, 0.6);
+    position: relative;
+}
+
+.list-content__test-exam {
+    background-color: rgba(205, 135, 159, 0.6);
+    position: relative;
+}
+
+.list-content__test-exam .lorem__text,
+.list-content__study .lorem__text {
+    color: #C32270;
+}
+.list-content__test-exam .lorem__slogan,
+.list-content__study .lorem__slogan {
+    display: flex;
+    width: 401px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+
+    /* Nội dung/Regular */
+    font-size: 15px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.list-content-vector{
+    width: 272.996px;
+    height: 223.179px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-left: 285px;
+    margin-top: 314px;
+}
+.list-content__test-exam .list-content-vector{
+    width: 377.363px;
+    height: 254.459px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-left: 193px;
+    margin-top: 289px;
+}
+
+.footer {
+    height: 288px;
+    width: 100%;
+    background: var(--tm, #C32270);
+}
+
+.footer-logo {
+    padding-top: 34px;
+    padding-bottom: 31px;
+    display: block;
+}
+
+.address-icon {
+    padding-right: 16px;
+}
+
+.footer-info {
+    width: 370px;
+    margin-right: 76px;
+}
+
+.company {
+    color: var(--trng, #FFF);
+    height: 19px;
+    /* Nội dung/Medium */
+    font-size: 15px;
+    font-family: Quicksand;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.company2 {
+    color: var(--trng, #FFF);
+
+    /* Nội dung/Regular */
+    font-size: 15px;
+    font-family: Quicksand;
+    padding-bottom: 15px;
+}
+
+.company3 {
+    color: var(--trng, #FFF);
+
+    /* Nội dung/Medium */
+    font-size: 15px;
+    font-family: Quicksand;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.company4 {
+    color: var(--trng, #FFF);
+
+    /* Nội dung/Regular */
+    font-size: 15px;
+    font-family: Quicksand;
+    padding-bottom: 7px;
+}
+
+.phone {
+    color: var(--trng, #FFF);
+
+    /* Nội dung/Regular */
+    font-size: 15px;
+    font-family: Quicksand;
+}
+
+.footer-icon-contact {
+    width: 30px;
+    display: block;
+    margin-right: 16px;
+}
+
+.footer-info-contact {
+    width: 162px;
+    margin-right: 75px;
+}
+
+.footer-icon__email {
+    padding-bottom: 56px;
+}
+
+.email1 {
+    color: var(--trng, #FFF);
+
+    /* Nội dung/Medium */
+    font-size: 15px;
+    font-family: Quicksand;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.email2 {
+    color: var(--trng, #FFF);
+
+    /* Nội dung/Regular */
+    font-size: 15px;
+    font-family: Quicksand;
+    padding-bottom: 41px;
+}
+
+.phone1 {
+    color: var(--trng, #FFF);
+
+    /* Nội dung/Medium */
+    font-size: 15px;
+    font-family: Quicksand;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.phone2 {
+    color: var(--trng, #FFF);
+
+    /* Nội dung/Regular */
+    font-size: 15px;
+    font-family: Quicksand;
+}
+
+.footer-fanpage {
+    width: 145px;
+    height: 97px;
+    flex-shrink: 0;
+    margin-right: 75px;
+
+}
+
+.footer-location {
+    width: 145px;
+    height: 97px;
+    flex-shrink: 0;
+}
+
+.footer-icon__fb {
+    padding-right: 16px;
+    margin-bottom: 16px;
+}
+
+.fanpage-text {
+    color: var(--trng, #FFF);
+    /* Nội dung/Medium */
+    font-size: 15px;
+    font-family: Quicksand;
+    font-weight: 500;
+    display: inline-block;
+    padding-top: 5px;
+}

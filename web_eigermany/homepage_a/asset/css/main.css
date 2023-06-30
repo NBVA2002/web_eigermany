@@ -1,0 +1,277 @@
+.hompage_a {
+    width: 100%;
+    /* max-width: 1440px; */
+    height: 1024px;
+    margin-right: 0px;
+}
+
+.heading {
+    width: 100%;
+    height: 71px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+}
+
+.heading-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading__logo {
+    width: 162px;
+    height: 40px;
+    display: inline-block;
+}
+
+.heading-login {
+    display: flex;
+    align-items: center;
+}
+
+.heading-login-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.heading-login-text {
+    color: var(--tm, #C32270);
+    font-size: 18px;
+    font-family: Quicksand;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.content {
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 665px;
+}
+
+.slider {
+    width: 100%;
+    height: 385px;
+    background: url("../img/lilartsy-333oj7zFsdg-unsplash\ 1.png"), lightgray 0px -361.892px / 100% 197.427% no-repeat;
+    position: relative;
+}
+
+.slider-content {
+    width: 465px;
+    top: 72px;
+    left: 63px;
+    position: absolute;
+}
+
+.halo {
+    height: 63px;
+    color: var(--tm, #C32270);
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 50px;
+    font-family: Quicksand;
+    font-weight: 700;
+}
+
+.slogan {
+    color: var(--trng, #FFF);
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* Tiêu đề/18 */
+    font-size: 18px;
+    font-family: Quicksand;
+    font-weight: 500;
+}
+
+.list-content {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+}
+
+.list-item {
+    width: 20%;
+    height: 220px;
+}
+
+.list-content__study {
+    background-color: rgba(205, 135, 159, 0.6);
+    position: relative;
+}
+
+.list-content__test-exam {
+    background-color: rgba(205, 135, 159, 0.6);
+    position: relative;
+}
+
+.list-content__orders {
+    background-color: rgba(205, 135, 159, 0.6);
+    position: relative;
+}
+
+.list-content-vector {
+    left: 50%;
+    transform: translate(-50%);
+    top: 30px;
+    position: absolute;
+}
+
+.list-content-text {
+    width: 132px;
+    text-align: center;
+    color: var(--tm, #C32270);
+    font-size: 25px;
+    font-family: Quicksand;
+    font-weight: 600;
+    left: 50%;
+    transform: translate(-50%);
+    top: 167px;
+    position: absolute;
+}
+
+.footer {
+    height: 288px;
+    width: 100%;
+    background: var(--tm, #C32270);
+}
+
+.footer-logo {
+    padding-top: 34px;
+    padding-bottom: 31px;
+    display: block;
+}
+
+.address-icon {
+    padding-right: 16px;
+}
+
+.footer-info {
+    width: 370px;
+    margin-right: 76px;
+}
+
+.company {
+    color: var(--trng, #FFF);
+    height: 19px;
+    /* Nội dung/Medium */
+    font-size: 15px;
+    font-family: Quicksand;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.company2 {
+    color: var(--trng, #FFF);
+
+    /* Nội dung/Regular */
+    font-size: 15px;
+    font-family: Quicksand;
+    padding-bottom: 15px;
+}
+
+.company3 {
+    color: var(--trng, #FFF);
+
+    /* Nội dung/Medium */
+    font-size: 15px;
+    font-family: Quicksand;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.company4 {
+    color: var(--trng, #FFF);
+
+    /* Nội dung/Regular */
+    font-size: 15px;
+    font-family: Quicksand;
+    padding-bottom: 7px;
+}
+
+.phone {
+    color: var(--trng, #FFF);
+
+    /* Nội dung/Regular */
+    font-size: 15px;
+    font-family: Quicksand;
+}
+
+.footer-icon-contact {
+    width: 30px;
+    display: block;
+    margin-right: 16px;
+}
+
+.footer-info-contact {
+    width: 162px;
+    margin-right: 75px;
+}
+
+.footer-icon__email {
+    padding-bottom: 56px;
+}
+
+.email1 {
+    color: var(--trng, #FFF);
+
+    /* Nội dung/Medium */
+    font-size: 15px;
+    font-family: Quicksand;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.email2 {
+    color: var(--trng, #FFF);
+
+    /* Nội dung/Regular */
+    font-size: 15px;
+    font-family: Quicksand;
+    padding-bottom: 41px;
+}
+
+.phone1 {
+    color: var(--trng, #FFF);
+
+    /* Nội dung/Medium */
+    font-size: 15px;
+    font-family: Quicksand;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.phone2 {
+    color: var(--trng, #FFF);
+
+    /* Nội dung/Regular */
+    font-size: 15px;
+    font-family: Quicksand;
+}
+
+.footer-fanpage {
+    width: 145px;
+    height: 97px;
+    flex-shrink: 0;
+    margin-right: 75px;
+
+}
+
+.footer-location {
+    width: 145px;
+    height: 97px;
+    flex-shrink: 0;
+}
+
+.footer-icon__fb {
+    padding-right: 16px;
+    margin-bottom: 16px;
+}
+
+.fanpage-text {
+    color: var(--trng, #FFF);
+    /* Nội dung/Medium */
+    font-size: 15px;
+    font-family: Quicksand;
+    font-weight: 500;
+    display: inline-block;
+    padding-top: 5px;
+}
