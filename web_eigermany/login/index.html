@@ -31,30 +31,42 @@
                         class="logo-login__img">
                     <div class="logo-login__text">Chào mừng bạn đã đến với EI Germany!</div>
                 </div>
-
-                <div class="login-form">
+                
+                <form class="login-form">
                     <div class="login-form__acount">
                         <img src="./asset/icon/IconEmail.svg" alt="" class="logo-input">
-                        <input type="email tel" class="input-text " placeholder="Email/Số điện thoại">
+                        <input id="account" type="email tel" class="input-text " placeholder="Email/Số điện thoại">
                     </div>
 
                     <div class="login-form__password">
                         <img src="./asset/icon/IconPassword.svg" alt="" class="logo-input">
-                        <input type="password" class="input-text " placeholder="Mật khẩu">
+                        <input id="password" type="password" class="input-text " placeholder="Mật khẩu">
 
-                        <div class="show-password">
-                            <img src="./asset/icon/IconShowPassword.svg" alt="" class="logo-showpass">
+                        <div class="show-password ">
+                            <div id='eye' class="logo-showpass logo-hidepass" onclick="showPassword()"></div>
                         </div>
                     </div>
 
-                    <a href="" class="login-btn">ĐĂNG NHẬP</a>
-                </div>
+                    <button class="login-btn" >ĐĂNG NHẬP</button>
+                </form>
 
                 <div class="forgot-password">Quên mật khẩu?</div>
             </div>
         </div>
     </div>
-
 </body>
+<script src="main.js"></script>
+<script>
+    Validator({
+        rules: [
+            Validator.isAcount('#account'),
+            Validator.minLength('#password', 6)
+        ],
+        onsubmit: function (data) {
+            console.log(data);
+        }
+    });
+</script>
+
 
 </html>

@@ -128,15 +128,19 @@
     text-decoration: none;
 }
 
+.login-btn:hover {
+    opacity: 0.8;
+}
+
 .logo-input {
     color: var(--xm, #BABABA);
 
-/* Tiêu đề/18 */
-font-size: 18px;
-font-family: Quicksand;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    /* Tiêu đề/18 */
+    font-size: 18px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     width: 30px;
     height: 30px;
     flex-shrink: 0;
@@ -149,11 +153,25 @@ line-height: normal;
     outline: none;
 }
 
-.logo-showpass {
+.logo-hidepass {
+    background: url('../icon/IconShow.svg');
     width: 30px;
     height: 30px;
     flex-shrink: 0;
     margin: 12px;
+}
+
+.logo-showpass {
+    background: url('../icon/IconShowPassword.svg');
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    margin: 12px;
+}
+
+.logo-hidepass:hover,
+.logo-showpass:hover {
+    cursor: pointer;
 }
 
 .forgot-password {
@@ -167,4 +185,8 @@ line-height: normal;
     line-height: normal;
     text-align: center;
     margin-top: 20px;
+}
+
+.invalid {
+    border-color: #f33a58;
 }

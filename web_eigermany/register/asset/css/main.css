@@ -117,6 +117,11 @@
     text-decoration: none;
 }
 
+.register-btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 .input-text {
     width: 100%;
     border: none;
@@ -124,9 +129,27 @@
     margin-left: 40px;
 }
 
-.logo-showpass {
+.logo-hidepass {
+    background: url('../icon/IconShow.svg');
     width: 30px;
     height: 30px;
     flex-shrink: 0;
     margin: 12px;
+}
+
+.logo-showpass {
+    background: url('../icon/IconShowPassword.svg');
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    margin: 12px;
+}
+
+.logo-hidepass:hover,
+.logo-showpass:hover {
+    cursor: pointer;
+}
+
+.invalid {
+    border-color: #f33a58;
 }

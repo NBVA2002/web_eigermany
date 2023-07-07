@@ -32,26 +32,54 @@
                     <div class="logo-register__text">Chào mừng bạn đã đến với EI Germany!</div>
                 </div>
 
-                <div class="register-form">
+                <form class="register-form">
                     <div class="register-form__input">
-                        
-                        <input type="text" class="input-text " placeholder="Họ tên">
+                        <input id="username" type="text" class="input-text " placeholder="Họ tên">
                     </div>
 
                     <div class="register-form__input">
-                        <input type="tel" class="input-text " placeholder="Số điện thoại">
+                        <input id="phone" type="tel" class="input-text " placeholder="Số điện thoại">
                     </div>
 
                     <div class="register-form__input">
-                        <input type="text" class="input-text " placeholder="Địa chỉ">
+                        <input id="email" type="email" class="input-text " placeholder="Email">
                     </div>
 
-                    <a href="" class="register-btn">ĐĂNG KÝ</a>
-                </div>
+                    <div class="register-form__input">
+                        <input id="address" type="text" class="input-text " placeholder="Địa chỉ">
+                    </div>
+
+                    <div class="register-form__input">
+                        <input id="password" type="password" class="input-text " placeholder="Mật khẩu">
+
+                        <div class="show-password ">
+                            <div id='eye' class="logo-showpass logo-hidepass" onclick="showPassword()"></div>
+                        </div>
+                    </div>
+
+                    <button href="" class="register-btn">ĐĂNG KÝ</button>
+                </form>
 
             </div>
         </div>
     </div>
+
+    <script src="main.js"></script>
+
+    <script>
+        Validator({
+            rules: [
+                Validator.isRequired('#username'),
+                Validator.isPhone('#phone'),
+                Validator.isEmail('#email'),
+                Validator.isAddress('#address'),
+                Validator.minLength('#password', 6)
+            ],
+            onsubmit: function (data) {
+                console.log(data);
+            }
+        });
+    </script>
 
 </body>
 
